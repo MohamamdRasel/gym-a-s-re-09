@@ -1,11 +1,16 @@
+import { useLoaderData } from "react-router-dom";
 import AboutUs from "./AboutUs/AboutUs";
 import Footer from "./Footer/Footer";
 import Services from "./Services/Services";
 import Header from "./Shared/Header/Header";
 import Navbar from "./Shared/Navbar/Navbar";
 import Slider from "./Slider/Slider";
+import ProductCard from "./ProductCard";
+
 
 const Home = () => {
+    const product = useLoaderData();
+    // console.log(product);
     return (
         <div>
             <Navbar></Navbar>
@@ -23,6 +28,18 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
+
+                    <h2 className=" text-3xl text-center mt-5 "> Our Services</h2>
+                    <div className=" md:col-span-3 col-span-1 ">
+                        {
+                            product.map(aProduct => <ProductCard
+                            key={aProduct._id}
+                            product={aProduct}
+                            ></ProductCard>)
+                        }
+
+                    </div>
+                    
                 </div>
                 {/* <Slider></Slider> */}
                 <Services></Services>

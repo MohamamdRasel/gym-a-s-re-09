@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "Strength Training",
+        "image": "https://i.ibb.co/MM99m3k/Gymnastic-Rings.jpg",
+        "description": "Build muscle, increase strength, and improve overall fitness with our comprehensive strength training programs.",
+        "see_more_button": "https://example.com/strength_training"
+      },
+      {
+        "id": "2",
+        "title": "Cardio Workouts",
+        "image": "https://i.ibb.co/Vxj5KCb/Fitness.jpg",
+        "description": "Get your heart pumping and burn calories with our diverse range of cardio workouts, suitable for all fitness levels.",
+        "see_more_button": "https://example.com/cardio_workouts"
+      },
+      {
+        "id": "3",
+        "title": "Group Fitness Classes",
+        "image": "https://i.ibb.co/4MDXKsF/Personal-Trainer.jpg",
+        "description": "Join our energetic group fitness classes led by experienced instructors to achieve your fitness goals in a motivating environment.",
+        "see_more_button": "https://example.com/group_fitness_classes"
+      },
+      {
+        "id": "4",
+        "title": "Yoga & Pilates",
+        "image": "https://i.ibb.co/56DZvns/ronnie-coleman-bg.jpg",
+        "description": "Find balance, flexibility, and inner peace through our yoga and Pilates classes, designed to rejuvenate your mind and body.",
+        "see_more_button": "https://example.com/yoga_pilates"
+      },
+      {
+        "id": "5",
+        "title": "Nutritional Counseling",
+        "image": "https://i.ibb.co/gthgHJJ/Trainer-02.jpg",
+        "description": "Optimize your health and fitness journey with personalized nutritional guidance tailored to your unique needs and goals.",
+        "see_more_button": "https://example.com/nutritional_counseling"
+      },
+      {
+        "id": "6",
+        "title": "Personal Training",
+        "image": "https://i.ibb.co/ynVh5Y5/Trainer-03.jpg",
+        "description": "Receive one-on-one attention and customized workout plans from our certified personal trainers to maximize your results.",
+        "see_more_button": "https://example.com/personal_training"
+      }
+]
