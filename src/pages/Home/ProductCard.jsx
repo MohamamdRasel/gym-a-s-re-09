@@ -5,7 +5,7 @@ const ProductCard = ({ product }) => {
     const { title, image, description, id } = product;
     return (
         <div className=" grid md:grid-cols-3">
-            <div className=" card w-96 h-[660px] bg-base-100 shadow-xl">
+            <div className=" card w-96 h-[660px] bg-base-100 shadow-xl gap-4">
                 <figure><img src={image} /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{title}</h2>
@@ -24,6 +24,7 @@ const ProductCard = ({ product }) => {
                 </div>
             </div>
         </div>
+        
     );
 };
 

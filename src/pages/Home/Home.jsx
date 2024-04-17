@@ -29,8 +29,8 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <h2 className=" text-3xl text-center mt-5 "> Our Services</h2>
-                    <div className=" md:col-span-3 col-span-1 ">
+                    <h2 className=" text-3xl text-center mt-5 font-semibold "> Our Services</h2>
+                    <div className=" grid md:grid-cols-3 grid-cols-1 gap-5 mt-5">
                         {
                             product.map(aProduct => <ProductCard
                             key={aProduct._id}
@@ -42,7 +42,7 @@ const Home = () => {
                     
                 </div>
                 {/* <Slider></Slider> */}
-                <Services></Services>
+                {/* <Services></Services> */}
                 <AboutUs></AboutUs>
             </div>
             <Footer></Footer>
